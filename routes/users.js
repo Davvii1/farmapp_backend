@@ -23,7 +23,7 @@ router.put("/:email", updateUser); //Check
 //Get patient/patients
 router.get("/:email", getUser); //Check
 router.get("/", getUsers); //Check
-router.get("/:type", getUsersByType); //Check
+router.get("/type/:type", getUsersByType); //Check
 
 //Auth
 router.post("/login", loginUser); //Check
